@@ -1,0 +1,46 @@
+/* Estilização dos botões */
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    background-color: #f50057;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+  }
+  
+  .btn-primary:hover, .btn-secondary:hover {
+    background-color: #c51162;
+    transform: scale(1.05);
+  }
+  
+  /* Estilização do layout */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header, .promo, .product-section, .about-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .product-image {
+    width: 100%;
+    border-radius: 10px;
+  }
